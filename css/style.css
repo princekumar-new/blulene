@@ -1,0 +1,566 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* big-wrapper starts here*/
+.big-wrapper{
+    width: 100%;
+    background-image:url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    
+
+}
+#my-navigation{
+    background: none;
+    border: 0;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+#my-navigation ul li a{
+    color: #fff;
+    font-size: 17px;
+}
+
+#logo{
+    font-weight:500;
+    color:#fff;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+}
+
+/* Banner-wrapper starts here*/
+
+.banner-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    margin: 0 7%;
+    padding: 100px 0;
+   
+}
+
+
+.banner {
+    width: 60%;
+    margin: 0  0;
+
+
+}
+.banner h1{
+    color: #fff;
+    margin-top:40px;
+    font-size:70px;
+    line-height: 90px;
+    font-weight: 800;
+}
+.button{
+    width:45%;
+    height: 70px;
+    margin-top:40px;
+    color: red;
+    font-size: 18px;
+}
+.button:hover{
+    background-color: red;
+    color: white;
+    transition-duration: 2s;
+}
+.banner-snd{
+    width: 40%;
+    background-position: center;
+    background-size: cover;
+}
+.banner-snd img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 20px;
+}
+
+/* Banner-wrapper ends here*/
+
+/* big-wrapper ends here*/
+
+/*workflow starts here*/
+.workflow{
+    margin: 0 5%;
+    padding: 90px 0;
+}
+
+.pc-one img{
+  width: 100%;
+}
+
+.title{
+    width: 100%;
+    margin-left: 20px;
+}
+.title h2{
+    font-size: 45px;
+    margin-top: 0;
+    font-weight: 700;
+
+}
+
+.title p{
+    font-size: 17px;
+    line-height: 30px;
+    margin: 30px 0;
+    font-weight: 300;
+}
+
+.BUTTON{
+    font-size:16px;
+    width: 140px;
+    height: 44px;
+    color: #fff;
+    background-color: black;
+    border: 0;
+
+}
+.BUTTON:hover{
+    background-color: red;
+    transition-duration: 2s;
+}
+
+/*workflow ends here*/
+
+/*full-width  starts here*/
+.full-width{
+ background-color: black;
+}
+.solutions{
+    color: #fff;
+    margin: 0 5%;
+    padding: 70px 0;
+}
+.sol{
+    width: 100%;
+}
+.sol h2{
+    font-size: 45px;
+    font-weight: 800;
+}
+.sol p{
+    font-size: 18px;
+    margin: 40px 0;
+    line-height: 30px;
+}
+
+
+.imag img{
+    width: 100%;
+}
+
+.new-button{
+    width: 140px;
+    height: 40px;
+    color: black;
+    background-color: #fff;
+    border: 0;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.new-button:hover{
+    background-color: red;
+    color: white;
+    transition-duration: 2s;
+}
+
+/*full-width ends here*/
+
+/* works starts here*/
+.works{
+    margin: 0 7%;
+    padding: 80px 0;
+}
+.work{
+    margin: 15px 0;
+}
+.work img{
+    width: 100%;
+}
+.see-more h1{
+    font-size:44px;
+    font-weight: 700;
+    color: black;
+}
+
+.see-more p{
+    font-size:17px;
+    color: black;
+    margin: 30px 0;
+}
+
+/* works starts here*/
+
+/* second-last starts here*/
+
+.second-last{
+    width: 100%;
+    background-color: black;
+}
+
+.second-last .first h1{
+    font-weight: 700;
+    font-size: 70px;
+    color: gray;
+    line-height: 90px;
+    margin-top: 0;
+}
+
+.second{
+    width: 100%;
+    background-color: white;
+    padding: 30px 60px;
+}
+.second-last ul li{
+    list-style-type: none;
+}
+ 
+.second li a{
+    color: red;
+    margin-left: 70px;
+    font-size: 45px;
+}
+
+.second-last .works p{
+    color: #fff;
+    font-size: 16px;
+} 
+.gap{
+    margin-top: 20px;
+}
+
+/* second-last ends here*/
+
+/* footers starts here*/
+.last-full{
+    width: 100%;
+    background-color:rgb(216, 56, 110);
+    padding: 20px;
+    color: #fff;
+}
+
+.last-full p{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+/* footers ends here*/
+
+@media only screen and (max-width:550px) and (min-width:1px) {
+    .big-wrapper #logo{
+        font-size: 30px;
+    }
+    
+     .navabr-toggle{
+      margin-bottom:100px;
+
+     }
+    
+    .banner h1{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .banner-wrapper {
+        padding: 30px 0;
+    }
+    .banner-snd img{
+        width: 100%;
+        margin-top: 120px;
+    }
+    .button{
+        width: 150px;
+        height: 40px;
+    }
+
+    /* big-wrappper ends here*/
+
+     /*workflow starts here*/
+   .workflow {
+    padding: 30px 0;
+   }
+
+   .workflow .pc-one img{
+    width: 100%;
+   }
+   .title{
+    margin-top: 20px;
+   }
+
+   .workflow .title h2{
+    font-size: 27px;
+   }
+   .workflow .title p{
+    font-size: 15px;
+    margin: 15px 0;
+    line-height: 22px;
+   }
+
+   .BUTTON{
+    width: 100px;
+    height: 40px;
+    padding: 10px 0;
+    border: 0;
+   }
+
+ /* workflow ends here*/
+
+/*full-width starts here*/
+.solutions{
+    padding: 30px 0;
+}
+.sol h2{
+    font-size: 29px;
+    line-height: 35px;
+}
+.sol p{
+    font-size: 17px;
+    margin: 20px 0;
+}
+
+.imag{
+    margin-top: 20px;
+}
+.imag img{
+    width: 90%;
+}
+ /* full-width ends here*/
+
+ /*works starts here*/
+.works{
+    padding: 30px 0;
+}
+ .see-more h1{
+    font-size: 27px;
+ }
+ .see-more p{
+    font-size: 17px;
+    margin: 15px 0;
+ }
+ 
+ .work{
+    margin: 30px 0;
+ }
+
+ /*full-width ends here*/
+
+ /*second-last starts here*/
+.second-last .first h1{
+    font-size: 50px;
+    line-height: 50px;
+}
+.second-last p{
+    font-size: 12px;
+    text-align: left;
+}
+.second li img{
+    width: 10%;
+}
+.second{
+    margin-left:0;
+    padding:15px 15px;
+}
+.second li{
+    text-align: center;
+}
+.second li a{
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+/*second-last ends here*/
+
+ /*footer starts here*/
+.last-full p{
+    font-size: 15px;
+}
+
+/*footer ends here*/
+
+}
+
+@media only screen and (max-width:1000px) and (min-width:550px){
+  .big-wrapper .banner h1{
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .button{
+    width: 200px;
+    height: 50px;
+  }
+.workflow{
+    padding: 40px 0;
+}
+  .banner-snd img{
+    margin-top: 100px;
+  }
+  .workflow .pc-one img{
+    margin-top: 60px;
+  }
+  .workflow .title h2{
+    font-size: 30px;
+  }
+  .workflow .title p{
+    font-size: 16px;
+    margin: 20px 0;
+    line-height: 25px;
+  }
+
+
+.solutions {
+    padding: 40px 0;
+}
+
+  .solutions .sol h2{
+    font-size: 30px;
+  }
+
+  .sol p{
+    font-size: 16px;
+    margin: 20px 0;
+    line-height:25px;
+  }
+  .new-button{
+    margin-top: 0;
+  }
+
+
+  .works {
+    padding: 40px 0;
+  }
+
+  .see-more h1{
+    font-size: 35px;
+  }
+
+  .see-more p{
+    font-size: 16px;
+    margin: 15px 0;
+  }
+
+  .second-last .first h1{
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .second {
+    text-align: center;
+    padding: 20px 30px;
+  }
+  .second-last .second img{
+    width: 15%;
+  }
+  .second-last .second a{
+    font-size: 30px;
+    margin-left: 10px;
+  }
+
+.second-last p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.last-full p{
+    font-size: 15px;
+}
+
+}
+
+
+@media only screen and (max-width:1307px) and (min-width:1000px) {
+    .banner h1{
+        font-size: 55px;
+        line-height: 70px;
+    }
+    .button{
+        width: 200px;
+        height: 50px;
+    }
+    .workflow{
+        padding: 50px 0;
+    }
+    .pc-one img{
+    }
+    .title h2{
+        font-size: 32px;
+    }
+    .title p{
+        margin: 15px 0;
+    }
+    .BUTTON{
+        width: 120px ;
+        height: 40px;
+    }
+    .solutions {
+        padding: 40px 0;
+    }
+    .sol h2{
+        font-size: 35px;
+    }
+    .sol p{
+        font-size:17px;
+        margin: 25px 0;
+    }
+    .works{
+        padding: 40px 0;
+    }
+
+    .see-more h1{
+        font-size: 35px;
+    }
+
+    .see-more p{
+        font-size:17px;
+        margin: 15px 0;
+    }
+
+    .second-last .first h1{
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .second-last .second img{
+        width: 20%;
+    }
+    .second li{
+        text-align: center;
+    }
+    .second li a{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .second-last .works p{
+        margin-top:25px;
+    }
+}
+
+@media only screen and (min-width:551px) and (max-width:1401px){
+    .collapse {
+      display: none;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
